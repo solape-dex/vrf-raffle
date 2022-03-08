@@ -1,4 +1,4 @@
-# Solape On-chain Raffles
+# Solape On-chain Raffle
 
 This is an open-source raffle program created with love from TheOnlyCaky. It uses switchbaord's VRF to get unique random varables. There is a master raffle that serves to index all active raffles from that owner as well as keep the RNG (VRF) account data. All child raffles of the master can be configured to have multiple payment options and multiple single or basket rewards. For each raffle, a 'holder' can buy up to max_tickets_per_holder (up to 255). The more ticket's a owner has, the better their odds. The owner of the raffle cannot buy tickets.
 
