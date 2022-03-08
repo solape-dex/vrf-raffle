@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+raffle = "4iMPsUWtpnNQhjhs1gSw74j5arJpxXa6DrUWYKXsgWVn"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/drkrueger/.config/solana/id.json"
+
+[scripts]
+test = "ts-node tests/test.ts"
